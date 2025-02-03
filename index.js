@@ -4,7 +4,7 @@ const getTime = () => {
 }
 
 const getCityContry = () => {
-    fetch("http://ip-api.com/json/")
+    fetch("https://ipinfo.io/json?token=1b483f7137f452")
     .then(response => response.json())
     .then(data => {
         const location = `${data.city}, ${data.country}`;
