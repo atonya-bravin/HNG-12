@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="details">
+                <div class="personal-details">
+                    <div class="profile-pic">
+                        <img data-testid="profilePicture" src="./profile_pic.jpg" alt="Profile Picture" />
+                    </div>
+                    <div class="name">
+                        <h1 class="poppins-medium" data-testid="fullName">Bravin Atonya</h1>
+                    </div>
+                    <div class="title">
+                        <h3 class="poppins-medium" data-testid="jobTitle">Full-stack Developer · API Engineer</h3>
+                    </div>
+                </div>
+                <div class="social-details">
+                    <a href="https://github.com/atonya-bravin" data-testid="socialLinks">
+                        <img class="social-icon" src="./SocialIcons/github.svg" alt="Github">
+                    </a>
+                    <a href="https://x.com/bravin_the_Geek" data-testid="socialLinks">
+                        <img class="social-icon" src="./SocialIcons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/in/bravin-atonya-942a6b311/" data-testid="socialLinks">
+                        <img class="social-icon" src="./SocialIcons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="bio poppins-regular" data-testid="shortBio">
+                <p>
+                    Frontend Engineer passionate about crafting intuitive user experiences through clean, 
+                    efficient code. Experienced in React, TypeScript, and UI/UX design principles. Currently 
+                    exploring innovative ways to enhance frontend development with modern tools like Tailwind CSS.
+                </p>
+            </div>
+            <div class="footer">
+                <div class="footer-item poppins-regular" data-testid="emailAddress">bravinatonya.brani@gmail.com</div>
+                <div class="footer-item time poppins-regular" id="utc-time" data-testid="currentTimeUTC">
+
+                </div>
+                <div class="footer-item location poppins-regular" id="location" data-testid="currentLocation">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
