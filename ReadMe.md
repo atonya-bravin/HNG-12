@@ -1,7 +1,4 @@
 # Bravin Atonya - Full-stack Developer · API Engineer
-
-![Profile Picture](./profile_pic.jpg)
-
 Frontend Engineer passionate about crafting intuitive user experiences through clean, efficient code. Experienced in React, TypeScript, and UI/UX design principles. Currently exploring innovative ways to enhance frontend development with modern tools like Tailwind CSS.
 
 ## Social Links
